@@ -1,5 +1,5 @@
 import connectDB from "@/lib/mongodb";
-import Event,  from "@/database/event.model";
+import Event from "@/database/event.model";
 import { NextRequest, NextResponse } from "next/server";
 
 // Define route params type for type safety
